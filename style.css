@@ -1,0 +1,79 @@
+body {
+    font-family: Arial,sans-serif;
+    direction: ltr;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #777;
+}
+
+main {
+    padding: 2em;
+}
+
+section, article {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    border 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 0.5em;
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5em;
+    padding: 0.5em;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
